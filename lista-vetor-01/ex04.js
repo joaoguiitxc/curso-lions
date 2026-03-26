@@ -3,5 +3,5 @@ let s = 0;
 for ( let i = 0 ; i < numbs.length; i++) {
     s = s + numbs[i] 
 }
-  s = s /5;
+  s = s /numbs.length;
   console.log(s)
