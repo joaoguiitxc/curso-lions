@@ -7,4 +7,8 @@ for (let i = 0; i < numeros.length - 1; i++) {
   }
 }
 
-console.log(crescente ? "Crescente" : "decrescente");
+if(crescente) {
+    console.log("crescente");
+} else {
+    console.log("decrescente")
+}
